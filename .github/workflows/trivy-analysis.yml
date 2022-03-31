@@ -25,7 +25,7 @@ jobs:
       # * https://evilmartians.com/chronicles/build-images-on-github-actions-with-docker-layer-caching
       # * https://docs.docker.com/buildx/working-with-buildx/
       - uses: docker/setup-buildx-action@v1
-      - uses: actions/cache@v2
+      - uses: actions/cache@v3.0.1
         with:
           path: /tmp/.buildx-cache
           key: ${{ runner.os }}-buildx-${{ hashFiles('Dockerfile') }}
