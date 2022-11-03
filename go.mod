@@ -30,7 +30,7 @@ require (
 	github.com/volatiletech/sqlboiler/v4 v4.6.0
 	github.com/volatiletech/strmangle v0.0.1
 	github.com/ziutek/mymysql v1.5.4 // indirect
-	golang.org/x/crypto v0.0.0-20210711020723-a769d52b0f97
-	golang.org/x/sys v0.0.0-20210630005230-0f9fa26af87c
-	google.golang.org/api v0.52.0
+	golang.org/x/crypto v0.0.0-20210921155107-089bfa567519
+	golang.org/x/sys v0.0.0-20220728004956-3c1f35247d10
+	google.golang.org/api v0.102.0
 )
